@@ -1,0 +1,89 @@
+body {
+    background-image: url("./images/safety-critical-2.jpg");
+    background-repeat: no-repeat;
+    background-position:  center center;
+    background-size: 100%;
+}
+
+.aut {
+    width: 500px;
+    height: 500px;
+    background-color: #00334d;
+    border: 1px solid grey;
+    margin: 45px auto;
+}
+h1 {
+    font-size:40px;
+    text-align: center;
+    color: #00ffff;
+}
+
+form {
+    width: 300px;
+    height: 350px;
+    background-color: #ffffff;
+    position: relative;
+    left: 100px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    text-indent: 25px;
+    border: 2px solid #00334d;
+    background-repeat: no-repeat;
+    background-position: 3px center;
+    background-size: 9%;
+}
+
+input::placeholder {
+    color: red;
+    text-align: 20px center;
+}
+
+#mail {
+    background-image: url(https://cdn1.iconfinder.com/data/icons/education-set-3/512/email-envelope-512.png);
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+
+#pass {
+    background-image: url(https://cdn4.iconfinder.com/data/icons/security-15/24/Lock-1-512.png);
+    position: absolute;
+    top: 180px;
+    left: 50px;
+}
+
+label {
+    font-family: Arial;
+    color: #00334d;
+    font-size: 20px;
+}
+
+label[for="mail"] {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+label[for="password"] {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+#access{
+    color:#00ffff;
+    font-weight:bold ;
+    font-size:15px;
+    background-color:#00334d;
+    width:150px;
+    height: 30px;
+    background-image: none;
+    position: absolute;
+    left:77px;
+    top:250px;
+    text-indent: 0px;
+    cursor: pointer;
+}
